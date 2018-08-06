@@ -9,8 +9,7 @@ export default {
     },
   },
   externals: {
-    '@antv/data-set': 'DataSet',
-    rollbar: 'rollbar',
+    '@antv/data-set': 'DataSet'
   },
   alias: {
     components: path.resolve(__dirname, 'src/components/'),
